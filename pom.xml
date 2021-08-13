@@ -6,7 +6,7 @@
 	<artifactId>Zensar.com</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>CRUD Operations</name>
-
+	<packaging>war</packaging>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -35,7 +35,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
-
+		
 		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper -->
 		<!-- <dependency>
 			<groupId>org.apache.tomcat</groupId>
@@ -59,7 +59,7 @@
 				<version>3.1.0</version>
 			</plugin>
 		</plugins>
-		<finalName>demo</finalName>
+		<finalName>Zensar</finalName>
 	</build> 
 
 	<properties>
