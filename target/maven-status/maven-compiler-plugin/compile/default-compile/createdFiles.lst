@@ -1,0 +1,6 @@
+io\zensar\starter\controller\CrudOpertaionsController.class
+io\zensar\starter\CrudOperations.class
+io\zensar\starter\model\User.class
+io\zensar\starter\repository\UserRepository.class
+io\zensar\starter\configuration\SecurityConfig.class
+io\zensar\starter\userservice\UserService.class
