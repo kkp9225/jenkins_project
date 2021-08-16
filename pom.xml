@@ -6,7 +6,7 @@
 	<artifactId>Zensar.com</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>CRUD Operations</name>
-	<packaging>war</packaging>
+	<!-- <packaging>war</packaging> -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>

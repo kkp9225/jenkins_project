@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/zensar.war zensar.war
-ENTRYPOINT ["java","-war","zensar.war"]
+ADD target/zensar.jar zensar.jar
+ENTRYPOINT ["java","-jar","zensar.jar"]
