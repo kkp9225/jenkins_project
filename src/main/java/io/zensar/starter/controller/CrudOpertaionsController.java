@@ -43,7 +43,7 @@ public class CrudOpertaionsController {
 		try {
 			this.userService.saveUser(user);
 			return new ResponseEntity<>(HttpStatus.OK);
-		} catch (Exception e) {
+		} catch (NullPointerException e) {
 			return new ResponseEntity<>(HttpStatus.NOT_ACCEPTABLE);
 		}
 	}
@@ -54,7 +54,7 @@ public class CrudOpertaionsController {
 		try {
 			this.userService.updateUser(user.getId(), user.getName(), user.getMobile(), user.getDescription());
 			return new ResponseEntity<>(HttpStatus.OK);
-		} catch (Exception e) {
+		} catch (NullPointerException e) {
 			return new ResponseEntity<>(HttpStatus.NOT_MODIFIED);
 		}
 
@@ -70,7 +70,7 @@ public class CrudOpertaionsController {
 			} else {
 				return new ResponseEntity<User>(user, HttpStatus.OK);
 			}
-		} catch (Exception e) {
+		} catch (NullPointerException e) {
 			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 		}
 	}
@@ -81,7 +81,7 @@ public class CrudOpertaionsController {
 		try {
 			this.userService.deleteUser(id);
 			return new ResponseEntity<>(HttpStatus.OK);
-		} catch (Exception e) {
+		} catch (NullPointerException e) {
 			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 		}
 	}

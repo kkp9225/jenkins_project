@@ -28,9 +28,9 @@ public class User {
 		this.description = description;
 	}
 	
-	public User() {
-		
-	}
+//	public User() {
+//		
+//	}
 
 	public Long getId() {
 		return id;
